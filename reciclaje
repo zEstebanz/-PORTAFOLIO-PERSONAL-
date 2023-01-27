@@ -1,0 +1,208 @@
+/*Proyectos grid*/
+.proyects-grid {
+  padding: 0rem 2rem;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 1rem;
+}
+
+@media (min-width: 280px) {
+  .proyects-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 768px) {
+  .proyects-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.projects-section-header {
+  max-width: 768px;
+  margin: 0 auto 6rem auto;
+  border-bottom: 0.2rem solid $blanco;
+  font-size: 30px;
+
+}
+
+@media(min-width: 768px) {
+  .projects-section-header {
+    max-width: 90%;
+    font-size: 70px;
+  }
+}
+
+
+.project {
+  background: $negro;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  
+  a{
+    text-decoration: none;
+    color: $crem;
+  }
+}
+
+.code {
+  color: $negro;
+  transition: color 0.3s ease-out;
+}
+
+.project:hover .code {
+  color: $blanco;
+}
+
+.project-image {
+  height: calc(100% - 6.8rem);
+  width: 100%;
+  object-fit: cover;
+}
+
+.project-title {
+  font-size: 2rem;
+  padding: 2rem 0.5rem;
+}
+
+.section2 {
+  height: 100vh;
+  background-color: $blu;
+}
+
+.section3{
+
+  height: auto;
+  background-color: $smoky;
+
+  .icos{
+    padding-top: 5rem;
+    padding-left: 10rem;
+  }
+  
+  img{
+    width: 200px;
+    height: 200px;
+  }
+}
+
+/* Footer Section */
+.footer-section{
+  background-color: $blu;
+  height: 30vh;
+}
+
+
+<!-- Projects -->
+    <section id="projects" class="projects-section">
+
+        <div class="title">
+            <h1>Mis Proyectos</h1>
+        </div>
+
+        <div class="proyects-grid ">
+
+            <!--Comienzo de un proyecto -->
+            <div class="project project-tile">
+                <a href="https://mendopleg.netlify.app/" target="_blank">
+                    <img class="project-image" src="src/img/projects/1.png" alt="project" />
+
+                    <p class="project-title">
+                        <span class="code">&lt;</span>
+                        Industria MendoPleg
+                        <span class="code">&#47;&gt;</span>
+                    </p>
+                </a>
+            </div>
+            <!--Fin de un proyecto -->
+
+            <!--Comienzo de un proyecto -->
+            <div class="project project-tile">
+                <a href="https://optimistic-fermat-9e3b0b.netlify.app/" target="_blank" class="project project-tile">
+                    <img class="project-image" src="src/img/projects/2.png" alt="project" />
+
+                    <p class="project-title">
+                        <span class="code">&lt;</span>
+                        Blog De Café
+                        <span class="code">&#47;&gt;</span>
+                    </p>
+                </a>
+            </div>
+            <!--Fin de un proyecto -->
+
+            <!--Comienzo de un proyecto -->
+            <div class="project project-tile">
+                <a href="https://frontend-store-70f6cc.netlify.app" target="_blank" class="project project-tile">
+                    <img class="project-image" src="src/img/projects/3.png" alt="project" />
+
+
+                    <p class="project-title">
+                        <span class="code">&lt;</span>
+                        Frontend Store
+                        <span class="code">&#47;&gt;</span>
+                    </p>
+                </a>
+            </div>
+            <!--Fin de un proyecto -->
+
+            <!--Comienzo de un proyecto -->
+            <div class="project project-tile">
+                <a href="" target="_blank" class="project project-tile">
+                    <img class="project-image" src="src/img/projects/4.png" alt="project" />
+
+
+                    <p class="project-title">
+                        <span class="code">&lt;</span>
+                        Piratería Informática
+                        <span class="code">&#47;&gt;</span>
+                    </p>
+                </a>
+            </div>
+            <!--Fin de un proyecto -->
+
+            <!--Comienzo de un proyecto -->
+            <div class="project project-tile">
+                <a href="https://marvelous-lebkuchen-8fe5f7.netlify.app/" target="_blank" class="project project-tile">
+                    <img class="project-image" src="src/img/projects/5.png" alt="project" />
+
+
+                    <p class="project-title">
+                        <span class="code">&lt;</span>
+                        Rick & Morty API
+                        <span class="code">&#47;&gt;</span>
+                    </p>
+                </a>
+            </div>
+            <!--Fin de un proyecto -->
+
+            <!--Comienzo de un proyecto -->
+            <div class="project project-tile">
+                <a href="https://regal-smakager-5bdc29.netlify.app/" target="_blank" class="project project-tile">
+                    <img class="project-image" src="src/img/projects/6.png" alt="project" />
+
+
+                    <p class="project-title">
+                        <span class="code">&lt;</span>
+                        Carrusel Materialize
+                        <span class="code">&#47;&gt;</span>
+                    </p>
+                </a>
+            </div>
+            <!--Fin de un proyecto -->
+
+
+            <!--Comienzo de un proyecto -->
+            <!-- <a href="clase/clase.html" class="project project-tile">
+                <img class="project-image" src="img/Escritorio.jpg" alt="Esc" />
+
+                <p class="project-title">
+                    <span class="code">&lt;</span>
+                    Ejercicios En Clase
+                    <span class="code">&#47;&gt;</span>
+                </p>
+            </a> -->
+            <!--Fin de un proyecto -->
+        </div>
+    </section>
+    <!-- End Projects -->
+
+

@@ -1,0 +1,10 @@
+h1{
+    text-align: center;
+    color: rgb(38, 132, 132);
+}
+
+div{
+    width: 0%;
+    border: 2px solid firebrick;
+    margin: auto;
+}
