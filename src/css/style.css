@@ -150,5 +150,15 @@
 }
 /* Section 3 */
 .section3 {
+  background-color: #0C0808;
+  height: auto;
+  padding-bottom: 5em;
+}
+.section3 h3 {
+  font-size: 40px;
+  color: #186165;
+}
+.section3 .progress-bar {
   background-color: #4ADBC8;
+  font-size: 15px;
 }/*# sourceMappingURL=style.css.map */

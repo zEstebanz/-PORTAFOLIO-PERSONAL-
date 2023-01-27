@@ -135,6 +135,7 @@ $violet: #67597A;
   background-image: url(/src/img/background/plant6.jpg);
   height: auto;
   padding-bottom: 5em;
+
   h3 {
     color: $blanco;
     text-align: left;
@@ -187,5 +188,17 @@ $violet: #67597A;
 
 /* Section 3 */
 .section3 {
-  background-color: $celestito;
+  background-color: $smoky;
+  height: auto;
+  padding-bottom: 5em;
+  h3{
+    font-size: 40px;
+    color: $awita;
+  }
+
+  .progress-bar{
+    background-color: $celestito;
+    font-size: 15px;
+  }
+
 }
