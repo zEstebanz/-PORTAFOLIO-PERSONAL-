@@ -85,7 +85,7 @@ $azulOscruto: #152225;
 /* Global Section*/
 .title {
   padding-top: 60px;
-
+  padding-bottom: 40px;
   h1 {
     text-align: center;
     color: $blanco;
@@ -126,6 +126,30 @@ $azulOscruto: #152225;
       height: 100%;
     }
   }
+}
+
+.section-cover-aboutme{
+  background-image: url(/src/img/background/plantH.jpg);
+}
+
+/* Section Skills */
+.section-skills {
+  background-color: $smoky;
+  height: auto;
+  padding-bottom: 5em;
+
+  h3 {
+    font-size: 40px;
+    color: $awita;
+  }
+
+  .progress-bar {
+    background-color: $awitaClarita;
+    color: $negro;
+    font-weight: 600;
+    font-size: 15px;
+  }
+
 }
 
 /* Section-AboutMe */
@@ -184,27 +208,31 @@ $azulOscruto: #152225;
 
 }
 
-/* Section Skills */
-.section-skills {
+/**** ABOUT ME ****/
+.section-foda{
   background-color: $smoky;
   height: auto;
   padding-bottom: 5em;
 
-  h3 {
-    font-size: 40px;
-    color: $awita;
+  .text-foda{
+    color: $blanco;
+    display: inline-flex;
+    background-color: #003554;
   }
-
-  .progress-bar {
-    background-color: $awitaClarita;
-    color: $negro;
-    font-weight: 650;
-    font-size: 15px;
-  }
-
 }
 
-/*Proyecto Seccion*/
+.section-plan{
+  background-color: $smoky;
+  height: auto;
+  padding-bottom: 5em;
+
+  .text-plan{
+    color: $blanco;
+  }
+}
+/**** END ABOUT ME ****/
+
+/* Section Projects */
 .projects-section {
   text-align: center;
   padding-bottom: 10rem;
@@ -249,7 +277,7 @@ $azulOscruto: #152225;
 .projects-section-header {
   max-width: 768px;
   margin: 0 auto 6rem auto;
-  border-bottom: 0.2rem solid var(--blanquito);
+  border-bottom: 0.2rem solid $blanco;
   font-size: 30px;
 
 }
@@ -260,7 +288,6 @@ $azulOscruto: #152225;
     font-size: 70px;
   }
 }
-
 
 .project {
   background: $awita;
@@ -423,6 +450,7 @@ $azulOscruto: #152225;
       width: 30px;
       height: 30px;
       user-select: none;
+      margin-right: 8px;
     }
     .columns {
       background-color: #000;

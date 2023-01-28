@@ -61,6 +61,7 @@
 /* Global Section*/
 .title {
   padding-top: 60px;
+  padding-bottom: 40px;
 }
 .title h1 {
   text-align: center;
@@ -96,6 +97,27 @@
   border-radius: 50%;
   width: 100%;
   height: 100%;
+}
+
+.section-cover-aboutme {
+  background-image: url(/src/img/background/plantH.jpg);
+}
+
+/* Section Skills */
+.section-skills {
+  background-color: #0c0808;
+  height: auto;
+  padding-bottom: 5em;
+}
+.section-skills h3 {
+  font-size: 40px;
+  color: #186165;
+}
+.section-skills .progress-bar {
+  background-color: #5CAB7D;
+  color: #000;
+  font-weight: 600;
+  font-size: 15px;
 }
 
 /* Section-AboutMe */
@@ -143,24 +165,29 @@
   transition: color 0.3s ease-out;
 }
 
-/* Section Skills */
-.section-skills {
+/**** ABOUT ME ****/
+.section-foda {
   background-color: #0c0808;
   height: auto;
   padding-bottom: 5em;
 }
-.section-skills h3 {
-  font-size: 40px;
-  color: #186165;
-}
-.section-skills .progress-bar {
-  background-color: #5CAB7D;
-  color: #000;
-  font-weight: 650;
-  font-size: 15px;
+.section-foda .text-foda {
+  color: #fff;
+  display: inline-flex;
+  background-color: #003554;
 }
 
-/*Proyecto Seccion*/
+.section-plan {
+  background-color: #0c0808;
+  height: auto;
+  padding-bottom: 5em;
+}
+.section-plan .text-plan {
+  color: #fff;
+}
+
+/**** END ABOUT ME ****/
+/* Section Projects */
 .projects-section {
   text-align: center;
   padding-bottom: 10rem;
@@ -201,7 +228,7 @@
 .projects-section-header {
   max-width: 768px;
   margin: 0 auto 6rem auto;
-  border-bottom: 0.2rem solid var(--blanquito);
+  border-bottom: 0.2rem solid #fff;
   font-size: 30px;
 }
 
@@ -362,6 +389,7 @@
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
+  margin-right: 8px;
 }
 .section-contact .content-form .columns {
   background-color: #000;
