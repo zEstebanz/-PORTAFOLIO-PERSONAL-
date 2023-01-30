@@ -263,11 +263,19 @@ $azulOscruto: #152225;
 
 @media (min-width: 280px) {
   .proyects-grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    
   }
 }
 
 @media (min-width: 768px) {
+  .proyects-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+
+@media (min-width: 1024px) {
   .proyects-grid {
     grid-template-columns: repeat(3, 1fr);
   }
