@@ -86,6 +86,7 @@ $azulOscruto: #152225;
 .title {
   padding-top: 60px;
   padding-bottom: 40px;
+
   h1 {
     text-align: center;
     color: $blanco;
@@ -128,7 +129,7 @@ $azulOscruto: #152225;
   }
 }
 
-.section-cover-aboutme{
+.section-cover-aboutme {
   background-image: url(/src/img/background/plantH.jpg);
 }
 
@@ -209,27 +210,28 @@ $azulOscruto: #152225;
 }
 
 /**** ABOUT ME ****/
-.section-foda{
+.section-foda {
   background-color: $smoky;
   height: auto;
   padding-bottom: 5em;
 
-  .text-foda{
+  .text-foda {
     color: $blanco;
     display: inline-flex;
     background-color: #003554;
   }
 }
 
-.section-plan{
+.section-plan {
   background-color: $smoky;
   height: auto;
   padding-bottom: 5em;
 
-  .text-plan{
+  .text-plan {
     color: $blanco;
   }
 }
+
 /**** END ABOUT ME ****/
 
 /* Section Projects */
@@ -243,15 +245,25 @@ $azulOscruto: #152225;
   }
 }
 
-.projects-section-header {
-  max-width: 640px;
-  margin: 0 auto 6rem auto;
-  border-bottom: 0.2rem solid $blanco;
-}
-
+/* FONT SIZE RESPONSIVE*/
 @media (max-width: 28.75em) {
-  .projects-section-header {
-    font-size: 4rem;
+  .title {
+    h1 {
+      font-size: 2.5rem;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+    }
+  }
+
+  .text {
+    h3{
+      font-size: 1rem;
+    }
+    p {
+      font-size:small;
+    }
   }
 }
 
@@ -264,7 +276,7 @@ $azulOscruto: #152225;
 @media (min-width: 280px) {
   .proyects-grid {
     grid-template-columns: repeat(1, 1fr);
-    
+
   }
 }
 
@@ -322,6 +334,7 @@ $azulOscruto: #152225;
   padding: 2rem 0.5rem;
   color: $blanco;
 }
+
 /* End Section Projects */
 
 
@@ -437,7 +450,7 @@ $azulOscruto: #152225;
 
     /* CONTACT INFO */
     .contact-info {
-       background: #1d37459f;
+      background: #1d37459f;
     }
 
     .contact-info h4,
@@ -447,21 +460,24 @@ $azulOscruto: #152225;
       margin: 0 0 1rem 0;
     }
 
-    .contact-info a{
+    .contact-info a {
       text-decoration: none;
       color: $blanco;
       user-select: none;
     }
-    .contact-info a:hover{
+
+    .contact-info a:hover {
       color: $awita;
       transition: 0.5s;
     }
-    .ico{
+
+    .ico {
       width: 30px;
       height: 30px;
       user-select: none;
       margin-right: 8px;
     }
+
     .columns {
       background-color: #000;
       padding: 20px 4em;
@@ -500,15 +516,17 @@ $azulOscruto: #152225;
 }
 
 /* Section Footer */
-#footer{
-  span{
+#footer {
+  span {
     color: $awitaClarita;
   }
-  a{
+
+  a {
     text-decoration: none;
     color: #67597A;
   }
-  a:hover{
+
+  a:hover {
     color: #5c0e8d;
     transition: 0.5s;
   }
