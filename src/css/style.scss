@@ -258,7 +258,6 @@ $azulOscruto: #152225;
 /*Proyectos grid*/
 .proyects-grid {
   display: grid;
-  grid-template-columns: repeat(1, 1fr);
   gap: 1rem;
 }
 
@@ -315,6 +314,9 @@ $azulOscruto: #152225;
   padding: 2rem 0.5rem;
   color: $blanco;
 }
+/* End Section Projects */
+
+
 
 /* Section Education */
 .section-education {

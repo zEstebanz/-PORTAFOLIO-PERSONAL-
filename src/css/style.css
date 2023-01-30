@@ -211,7 +211,6 @@
 /*Proyectos grid*/
 .proyects-grid {
   display: grid;
-  grid-template-columns: repeat(1, 1fr);
   gap: 1rem;
 }
 
@@ -266,6 +265,7 @@
   color: #fff;
 }
 
+/* End Section Projects */
 /* Section Education */
 .section-education {
   background-color: #ca3d2b;
